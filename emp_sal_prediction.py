@@ -127,4 +127,4 @@ def main():
         pred = model.predict(data_new_scaled)
         st.success("Predicted Annual Salary: {:.2f} LPA".format(pred[0]))
     if __name__=='__main__':
-    main()
+        main()
