@@ -126,6 +126,5 @@ def main():
         data_new_scaled = scaler.transform(data_new)
         pred = model.predict(data_new_scaled)
         st.success("Predicted Annual Salary: {:.2f} LPA".format(pred[0]))
-
-if __name__=='__main__':
+    if __name__=='__main__':
     main()
